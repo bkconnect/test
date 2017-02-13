@@ -1,0 +1,40 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "Desktop application build with Electron",
+  "repository": {},
+  "scripts": {
+    "postinstall": "install-app-deps"
+  },
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "electron-builder": "7.13.0",
+    "electron-packager-tf": "7.5.3",
+    "gulp": "^3.9.1",
+    "mocha": "^3.1.2",
+    "spectron": "^3.4.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "build": {
+    "appId": "com.electron.test",
+    "category": "your.app.category.type",
+    "win": {
+      "iconUrl": "https://github.com/railsware/bozon/blob/master/lib/templates/images/electron.ico?raw=true"
+    },
+    "mac": {
+      "icon": "resources/icon.icns",
+      "target": "dmg"
+    }
+  },
+  "main": "index.js",
+  "author": "Bastien Kilian",
+  "license": "MIT",
+  "dependencies": {
+    "about-window": "^1.6.1",
+    "graceful-fs": "^4.1.11",
+    "minimatch": "^3.0.3",
+    "react": "latest",
+    "react-desktop": "^0.2.17",
+    "react-dom": "latest"
+  }
+}

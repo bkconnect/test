@@ -1,0 +1,14 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "Test application built with Electron",
+  "author": {
+    "name": "Bastien Kilian",
+    "email": "bkilian@live.fr"
+  },
+  "license": "MIT",
+  "main": "javascripts/main/index.js",
+  "dependencies": {
+
+  }
+}
